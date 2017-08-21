@@ -6,6 +6,10 @@ Noteworthy changes in release ?.?? (????-??-??)
   * Warning is now issued when a tracee with unsupported personality
     is attached.
 
+* Changes in command line syntax
+  * New syntax for -e option for filter-based expressions.
+    Traditional syntax is also supported.
+
 * Improvements
   * Implemented decoding of netlink descriptor attributes as file descriptors.
   * Implemented decoding of hugetlb page size selection flags.
