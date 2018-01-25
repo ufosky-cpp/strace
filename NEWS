@@ -31,6 +31,7 @@ Noteworthy changes in release ?.?? (????-??-??)
   * Implemented biarch support for s390x.
   * Implemented an optional support for symbol demangling in strace -k output
     (activated by --with-libiberty configure option).
+  * Implemented block/character device number printing in -yy mode.
   * Information about availability of demangling and reliable personality
     decoding (on architectures with multiple personalities) is now available
     in strace -V output.
